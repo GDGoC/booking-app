@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Booking Application Frontend
 
-## Getting Started
+This is the frontend for the Booking Application developed by the GDSD Team, University of Ilorin. The application is built using **Next.js** and provides a modern interface for booking-related functionalities.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Modern UI/UX for managing bookings.
+- Seamless integration with backend services.
+- Responsive design for mobile and desktop devices.
+- Easy navigation and user-friendly interface.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: TailwindCSS / CSS Modules
+- **State Management**: Context API / Redux (if applicable)
+- **Icons**: React Icons / FontAwesome
+- **API Communication**: Axios / Fetch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To get started with the project, follow these steps:
 
-## Deploy on Vercel
+1. **Clone the Repository**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/GDGoC/booking-app-frontend.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd booking-app-frontend
+   ```
+
+3. **Install Dependencies**
+
+   Make sure you have [Node.js](https://nodejs.org/) and npm/yarn installed. Then, run:
+
+   Using npm:
+   ```bash
+   npm install
+   ```
+
+   Using yarn:
+   ```bash
+   yarn install
+   ```
+
+4. **Set Up Environment Variables**
+
+   Create a `.env.local` file in the root directory and add the required environment variables. Example:
+
+   ```env
+   NEXT_PUBLIC_API_BASE_URL=https://your-backend-api-url.com
+   NEXT_PUBLIC_OTHER_ENV_VARIABLE=value
+   ```
+
+5. **Run the Application**
+
+   Start the development server:
+
+   Using npm:
+   ```bash
+   npm run dev
+   ```
+
+   Using yarn:
+   ```bash
+   yarn dev
+   ```
+
+   The application will be available at [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+- Access the homepage and navigate through the booking features.
+- Authenticate and manage user accounts (if applicable).
+- Interact with the backend APIs for creating, updating, and viewing bookings.
+
+## Contributing
+
+We welcome contributions from the community! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. Commit your changes:
+
+   ```bash
+   git commit -m "Add your message here"
+   ```
+
+4. Push to your branch:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+5. Open a pull request to the `main` branch.
+
+---
+
